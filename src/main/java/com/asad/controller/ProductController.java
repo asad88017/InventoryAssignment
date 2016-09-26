@@ -1,4 +1,4 @@
-package com.controller;
+package com.asad.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.model.Product;
-import com.service.ProductService;
+import com.asad.model.Product;
+import com.asad.service.ProductService;
 
 @Controller
 @RequestMapping(value="products")

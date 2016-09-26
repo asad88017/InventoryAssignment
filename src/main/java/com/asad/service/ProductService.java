@@ -1,8 +1,8 @@
-package com.service;
+package com.asad.service;
 
 import java.util.List;
 
-import com.model.Product;
+import com.asad.model.Product;
 
 public interface ProductService {
 	public List<Product> getProducts();

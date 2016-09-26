@@ -1,7 +1,8 @@
-package com.dao;
+package com.asad.dao;
 
 import java.util.List;
-import com.model.Product;
+
+import com.asad.model.Product;
 
 public interface ProductDAO {
 	public List<Product> getProducts();

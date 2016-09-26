@@ -68,7 +68,7 @@
 					data = response.data;
 					$('.tr').remove();
 					for(i=0; i<response.data.length; i++){					
-						$("#table").append("<tr class='tr'> <td> "+response.data[i].user_name+" </td> <td> "+response.data[i].email+" </td> <td> <a href='#' onclick= edit("+i+");> Edit </a>  </td> </td> <td> <a href='#' onclick='delete_("+response.data[i].user_id+");'> Delete </a>  </td> </tr>");
+						$("#table").append("<tr class='tr'> <td> "+response.data[i].product_name+" </td> <td> "+response.data[i].product_price+" </td> <td> "+response.data[i].product_quantity+" </td> <td> <a href='#' onclick= edit("+i+");> Edit </a>  </td> </td> <td> <a href='#' onclick='delete_("+response.data[i].product_id+");'> Delete </a>  </td> </tr>");
 					}			
 			}				
 		});

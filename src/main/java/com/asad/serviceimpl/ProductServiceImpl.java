@@ -1,11 +1,12 @@
-package com.serviceimpl;
+package com.asad.serviceimpl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.dao.ProductDAO;
-import com.model.Product;
-import com.service.ProductService;
+
+import com.asad.dao.ProductDAO;
+import com.asad.model.Product;
+import com.asad.service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService{
